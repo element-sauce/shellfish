@@ -1,0 +1,6 @@
+Variables are not split after substitution:
+set -x name 'Mister Bill'
+mkdir $name
+ls 
+
+Mister Bill
